@@ -169,6 +169,7 @@
 /*box section*/
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: pink;
 }
@@ -195,4 +196,56 @@ margin-top: 17px;
 }
 .box-content p{
     color: #007185;
+}
+
+
+
+/*Footter */
+
+.footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f30;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: .85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.foot-panel3{
+    background-color: #222f30;
+    color: white;
+    border-top :0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{ background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+
 }
