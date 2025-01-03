@@ -239,7 +239,6 @@ ul a{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .logo{ background-image: url(amazon_logo.png);
     height: 50px;
