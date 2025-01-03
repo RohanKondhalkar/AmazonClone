@@ -139,3 +139,22 @@
     font-size: 20px;
     font-weight: 700;
 }
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.hero-text{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.hero-text a{
+    color: #007185;
+    
+
+}
